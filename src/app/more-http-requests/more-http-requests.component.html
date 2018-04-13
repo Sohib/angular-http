@@ -1,0 +1,7 @@
+<h2>Other Requests</h2>
+<div class="btn-group" role="group" aria-label="Basic example">
+<button type="button" (click)="makePost()" class="btn btn-primary">Make Post</button>
+<button type="button" class="btn btn-danger" (click)="makeDelete()">Make Delete</button>
+</div>
+<div *ngIf="loading">Loading ... </div>
+<code><pre>{{ data | json }}</pre></code>
